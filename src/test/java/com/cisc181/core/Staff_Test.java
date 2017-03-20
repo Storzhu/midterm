@@ -59,13 +59,13 @@ public class Staff_Test {
 
 	@Test(expected = PersonException.class)
 	public void testDOBException() throws PersonException{
-		new Staff("Zhu", "Yi", "Man", newDate(2009, 12, 12), "Newark", "(302)-530-1111",
-				"zhuyi@udel.edu", "T",  5,25000, newDate(2017, 7, 7), eTitle.MR);
+		new Staff("Zhu", "Yiiiii", "Man", newDate(2009, 8, 8), "Newark", "(302)-530-5555",
+				"zhuyi@udel.edu", "T",  5,25000, newDate(2017, 3, 3), eTitle.MR);
 	}
 
 	@Test(expected = PersonException.class)
 	public void  testPhoneNumxception() throws PersonException {
-		new Staff("Zhu", "Yiii", "Man2", newDate(1999, 10, 10), "Newark", "(302)-530-3333",
-				"zhuyi@udel.edu", "T",  5,25000, newDate(2017, 5, 5), eTitle.MR);
+		new Staff("Zhu", "Yiiiii", "Man", newDate(1999, 8, 8), "Newark", "(302)-530-5555",
+				"zhuyi@udel.edu", "T",  5,25000, newDate(2017, 3, 3), eTitle.MR);
 	}
 }
