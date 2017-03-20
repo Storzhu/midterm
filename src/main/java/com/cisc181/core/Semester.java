@@ -7,6 +7,10 @@ public class Semester {
 	private UUID SemesterID;
 	private Date StartDate;
 	private Date EndDate;
+	public Semester() 
+	{
+
+	}
 	
 	public Semester(UUID SemesterID, Date StartDate, Date EndDate) {
 		this.SemesterID = SemesterID;
